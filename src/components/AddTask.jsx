@@ -6,7 +6,7 @@ function AddTask({ onAddTask }) {
   console.log({ title, description });
 
   return (
-    <div className="space-y-4 bg-zinc-100 w-[500px] p-6 rounded-md shadow flex flex-col">
+    <div className="space-y-4 bg-zinc-100 w-[500px] max-md:w-full p-6 rounded-md shadow flex flex-col">
       <input
         type="text"
         name=""

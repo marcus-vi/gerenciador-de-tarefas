@@ -7,7 +7,7 @@ function TaskPage() {
   const title = searchParams.get("title");
   const description = searchParams.get("description");
   return (
-    <div className="bg-zinc-700 h-screen w-screen flex items-center flex-col p-6 gap-4 [500px]">
+    <div className="bg-zinc-700 h-screen w-screen flex items-center flex-col p-6 max-md:px-3 max-md:w-full gap-4 [500px]">
       <div className="flex w-full justify-center relative">
         <button className="absolute left-0 top-0 bottom-0 text-zinc-100" onClick={() => navigate(-1)}>
           <ChevronLeftIcon />

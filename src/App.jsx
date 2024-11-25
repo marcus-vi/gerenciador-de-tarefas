@@ -38,7 +38,7 @@ function App() {
   }
 
   return (
-    <div className="bg-zinc-700 h-screen w-screen flex items-center flex-col p-6 gap-5">
+    <div className="bg-zinc-700 h-screen w-screen flex items-center flex-col p-6 max-md:px-3 gap-5">
       <div className="">
         <h1 className="text-3xl font-bold text-center text-slate-100">
           Task List
